@@ -28,7 +28,7 @@ dependencies {
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	implementation 'org.springframework.boot:spring-boot-starter-jdbc'
-	// https://mvnrepository.com/artifact/org.springframework/spring-web
+	implementation 'org.springframework.boot:spring-boot-starter-web:2.7.5'
 	implementation 'org.springframework:spring-web:6.0.3'
 
 }
